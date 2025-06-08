@@ -1,0 +1,1000 @@
+    3  ls -la scriptfiles
+    4  rm -rf /scriptfiles
+    5  ls -la
+    6  rm -rf /scriptfiles/
+    7  ls -la
+    8  root rm -rf /scriptfiles
+    9  sudo rm -rf /scriptfiles
+   10  ls -la
+   11  cd /HW-20_odd
+   12  ls -la HW-20_odd
+   13  cd /opt/280225-wdm/Irina_Mai/HW-20_odd/
+   14  nano HW-20-script.sh 
+   15  ./HW-20-script.sh 
+   16  Nano-l HW-20-script.sh 
+   17  nano-l HW-20-script.sh 
+   18  nano HW-20-script.sh 
+   19  ./HW-20-script.sh 
+   20  nano HW-20-script.sh 
+   21  ./HW-20-script.sh 
+   22  nano HW-20-script.sh 
+   23  ./HW-20-script.sh 
+   24  nano HW-20-script.sh 
+   25  ./HW-20-script.sh 
+   26  nano HW-20-script.sh 
+   27  ./HW-20-script.sh 
+   28  nano HW-20-script.sh 
+   29  ./HW-20-script.sh 
+   30  nano HW-20-script.sh 
+   31  ./HW
+   32  ./HW-20-script.sh 
+   33  nano HW-20-script.sh 
+   34  exit
+   35  mkdir -p /opt/dir1 /opt/dir2
+   36  for i in {1..100}; do filename=$RANDOM; touch "/opt/dir1/$filename"; done
+   37  chmode +x New_files.sh
+   38  chmod +x New_files.sh
+   39  cd /opt
+   40  ls
+   41  chmod +x New_files.sh
+   42  nano New_files.sh
+   43  chmod +x New_files.sh
+   44  ./New_files.sh
+   45  nano Move_new_files.sh
+   46  chmod +x move_even.sh
+   47  chmod +x Move_new_files.sh
+   48  ./Move_new_files.sh
+   49  echo
+   50  ls /opt/dir1
+   51  ls /opt/dir2
+   52  history
+   53  export SONYA_VARIABLE=250425-ptm
+   54  cd /opt
+   55  ls -la
+   56  cd 250425-ptm
+   57  ls
+   58  cd sonya_y
+   59  ls -a
+   60  touch .process_management
+   61  ls -a
+   62  ls
+   63  date > .process_management
+   64  echo "Welcome to Amazon server" >> .process_management
+   65  free -m
+   66  free -m | grep Mem
+   67  free -m | grep Mem | awk {'print $2'}
+   68  awk
+   69  free -m | grep Mem | awk {'print $2'} >> .process_management
+   70  ps
+   71  ps -ef
+   72  ps -ef | grep root
+   73  ps -ef | grep root | grep -v
+   74  ps -ef | grep root | grep -v grep --color=auto
+   75  ps -ef | grep root | grep -v grep --color=auto | wc -l
+   76  ps -ef | grep root | grep -v grep --color=auto | wc -l >> .process_magement
+   77  ps -ef | grep root | grep -v grep --color=auto | wc -l >> .process_management
+   78  more .process_management
+   79  ls -la
+   80  rm .process_magement
+   81  ls -a
+   82  env
+   83  env | grep SONYA_VARIABLE >> .process_management
+   84  ps -ef | grep "/usr/sbin/sshd -D" | grep -v grep | awk '{print "PID", $2, "PPID", $3}'
+   85  ps -ef | grep "/usr/sbin/sshd -D" | grep -v grep | awk '{print "PID", $2, "PPID", $3}' >> .process_management
+   86  ps -ef | grep "/usr/sbin/sshd -D"
+   87  ps -ef | grep "/usr/sbin/sshd -D" | grep -v grep
+   88  export_file .process_management
+   89  more .process_management
+   90  cd /tmp
+   91  nano file.txt
+   92  df -h
+   93  df -h | grep head -3
+   94  df -h | head -3
+   95  df -h | head -3 > file.txt
+   96  chmod g+rx /tmp/file.txt
+   97  chmod o-rwx /tmp/file.txt
+   98  cd /opt/250425-ptm/sonya_y
+   99  touch myfirstbashscript.sh
+  100  chmod +x myfirstbachscript.sh
+  101  ls -a
+  102  nano myfirstbashscript.sh
+  103  export USER
+  104  export USER="Sonya"
+  105  env
+  106  pwd
+  107  nano myfirstbashscript.sh
+  108  ./myfirstbashscript.sh
+  109  myfirstbashscript.sh >> /tmp/file.txt
+  110  more myfirstbashscript.sh >> /tmp/file.txt
+  111  more /tmp/file.txt
+  112  history >> /tmp/file.txt
+  113  more /tmp/file.txt
+  114  export_file /tmp/file.txt
+  115  cd /opt/
+  116  cd /250425-pmt/
+  117  cd /tmp/file.txt
+  118  cd /tmp/
+  119  ls -l
+  120  export_file /tmp/file.txt
+  121  scp ec2-user@3.70.25.38:/home/ec2-user/history_ec2-user.txt
+  122  user@
+  123  scp ec2-user@3.70.25.38:/home/ec2-user/history_ec2-user.txt
+  124  -F
+  125  cd /tmp/
+  126  св
+  127  cd
+  128  ls -la
+  129  cd /tmp/250525-ptm
+  130  cd /tmp/250525-ptm/
+  131  cd /opt/250525-ptm/
+  132  cd /opt/
+  133  cd /250425-ptm
+  134  cd /250425-ptm/
+  135  ls -la
+  136  cd 250425-ptm
+  137  ls -la
+  138  cd vladimir.s
+  139  ls
+  140  nano my_file
+  141  cd
+  142  cd /tmp/
+  143  ls -l
+  144  nano vladimir_file.txt
+  145  exit
+  146  nano myfirstbashscript.sh
+  147  nano file.txt
+  148  cd /250425-pmt/
+  149  ls -la
+  150  export_file /tmp/file.txt
+  151  cd /opt/250425-ptm/sonya_y
+  152  ls -la
+  153  nano myfirstbashscript.sh 
+  154  nano test.txt 
+  155  exit
+  156  cd /opt/210225-ptm/daniil
+  157  ls
+  158  rm -r for_hm1 for_hm2
+  159  ls
+  160  nano all_hm19 
+  161  ./all_hm19 
+  162  tree
+  163  exit
+  164  cd /opt/
+  165  ды д
+  166  ls -l
+  167  tree
+  168  ls -la
+  169  cd /opt/250425-ptm/Georgiy
+  170  tree
+  171  vi proba.sh
+  172  rm proba.sh
+  173  tree
+  174  rm 3 
+  175  touch 0406.sh
+  176  vi 0406.sh 
+  177  ls -l
+  178  chmod 744 0406.sh 
+  179  ls -l
+  180  ./0406.sh 
+  181  ./0406.sh
+  182  vi 0406.sh 
+  183  ./0406.sh
+  184  cat 0406.sh 
+  185  ./
+  186  vi 0406.sh 
+  187  ./0406.sh
+  188  vi 0406.sh 
+  189  ./0406.sh
+  190  /opt/250425-ptm/Georgiy/0406.sh 
+  191  ls
+  192  cp /opt/250425-ptm/Georgiy/0406.sh /bin/0406.sh
+  193  env
+  194  cp /opt/250425-ptm/Georgiy/0406.sh /home/ec2-user/bin
+  195  cp /opt/250425-ptm/Georgiy/0406.sh /home/ec2-user/bin/0406.sh
+  196  ./0406.sh
+  197  0406.sh
+  198  sudo cp 0406.sh /bin/0406.sh
+  199  env
+  200  0406.sh
+  201  ./0406.sh
+  202  tree
+  203  ./0406.sh
+  204  cp /opt/250425-ptm/Georgiy/0406.sh
+  205  /opt/250425-ptm/Georgiy/0406.sh
+  206  0406.sh
+  207  ls
+  208  exit
+  209  ls
+  210  tree
+  211  ls l
+  212  ls -l
+  213  ls -la
+  214   ls /dev/tpm*
+  215  ls -ld /tpm
+  216  dmesg | grep -i tpm
+  217  /opt/250425-ptm/Georgiy/
+  218  /opt/250425-ptm/Georgiy
+  219  cd /opt/250425-ptm/Georgiy/
+  220  tree
+  221  chmod 744 0406.sh 
+  222  tree
+  223  ls -la
+  224  exit
+  225  dmesg | grep -i tpm
+  226  cd /opt/250425-ptm/Georgiy/
+  227  tree
+  228  ./0406.sh
+  229  ls -la
+  230  ./0406.sh
+  231  cat 0406.sh
+  232  cd
+  233  ls
+  234  pwd
+  235  cd /
+  236  ls
+  237  cd tmp
+  238  cat /tmp/file.txt
+  239  df -h | head -n 3 > /tmp/file.txt
+  240  chmod g+wx /tmp/file.txt
+  241  chmod o-rwx /tmp/file.txt
+  242  nano myfirstbashscript.sh
+  243  chmod +x myfirstbashscript.sh
+  244  cat myfirstbashscript.sh >> /tmp/file.txt
+  245  history | tail -n 20 >> /tmp/file.txt
+  246  exit
+  247  cat /tmp/file.txt
+  248  cd /opt/
+  249  cd /opt/250425-ptm/
+  250  cd vladimir_s
+  251  cd vladimir.s
+  252  ls -la
+  253  nano 123.sh
+  254  ./123.sh
+  255  ssh ec2-user@linux.itcareerhub.de
+  256  clear
+  257  exit
+  258  tree /opt/250425-wdm/
+  259  rm -rf /opt/250425-wdm/linuxamason
+  260  rm -rf /opt/250425-wdm/linuxamason/pirat
+  261  sudo rm -rf /opt/250425-wdm/linuxamason
+  262  clear
+  263  tree /opt/250425-wdm/
+  264  mkdir -p /opt/250425-wdm/cherednyk
+  265  clear
+  266  mkdir -p /opt/250425-wdm/cherednyk
+  267  tree /opt/250425-wdm/
+  268  clear
+  269  tree /opt/250425-wdm/
+  270  cd /opt/250425-ptm/pirat
+  271  cd /opt/250425-wtm/pirat
+  272  cd /opt/250425-wdm/pirat
+  273  tree
+  274  ./123.sh
+  275  cd /opt/250425-ptm/
+  276  ды дф
+  277  ls -la
+  278  cd /opt/250425-ptm/Georgiy
+  279  ls la
+  280  ls
+  281  touch 0606.sh
+  282  ./0606.sh
+  283  vi 0606.sh 
+  284  chmod 744 0606.sh 
+  285  ./0606.sh
+  286  cat 0606.sh 
+  287  cd
+  288  ./0606.sh
+  289  cd /opt/250425-ptm/Georgiy
+  290  tree
+  291  ls
+  292  rm script.sh.save
+  293  rm 111.sh 
+  294  ls
+  295  ./0406.sh 
+  296  cat 04
+  297  cat 0406.sh 
+  298  rm 0406.sh 
+  299  tree
+  300  ls -la
+  301  cat .process_management 
+  302  cat .proba.sh.sw
+  303  rm .proba.sh.sw .proba.sh.swo .process_management 
+  304  rm .proba.sh.sw 
+  305  cat .new.txt.swp 
+  306  r
+  307  rm .new.txt.swp 
+  308  rm .proba.sh.swp 
+  309  rm .proba.sh.swp
+  310  tree
+  311  ls -la
+  312  rm .123
+  313  touch /opt/250425-wdm/pitar/some_text.txt
+  314  tree /opt/250425-wdm/pitar
+  315  tree /opt/250425-wdm/pitar/
+  316  tree /opt/250425-wdm/pirat
+  317  touch /opt/250425-wdm/pirat/some_text.txt
+  318  tree /opt/250425-wdm/pirat
+  319  nano myscript.sh
+  320  find / -name '1.txt' 2>/dev/null
+  321  find / -name '1*.txt' 2>/dev/null
+  322  find / -name '*.sh' 2>/dev/null
+  323  find / -name '*.sh' 2>/dev/null | wc -l
+  324  find / -type d -name 'chu*' 2>/dev/null
+  325  find /opt -type f -name '*.txt' 2>/dev/null
+  326  find / -type f -name '*.txt' -size +1M 2>/dev/null
+  327  find / -type f -name '*.txt' -size +1M -mtime +3  2>/dev/null
+  328  find / -type f -name '1.txt' 2>/dev/null
+  329  locate script.sh
+  330  scp /opt/250425-wdm/pirat/some_text.txt pirat@162.120.187.192:/
+  331  scp /opt/250425-wdm/pirat/some_text.txt pirat@162.120.187.192:/fff/text.txt
+  332  clear
+  333  cd /opt/250425-wdm/pirat/
+  334  tree
+  335  cd /opt/250425-ptm/maksym.t
+  336  tree
+  337  find / -type f -name "1.txt" 
+  338  find / -type f -name "1.txt" -mtime +100
+  339  clear
+  340  find / -type f -name "1.txt" -mtime +100
+  341  find / -type f -name "1.txt" -mtime +100 -exec du -h
+  342  find / -type f -name "1.txt" -mtime +100 -exec du -h {} /;
+  343  find / -type f -name "1.txt" -mtime +100 du -h {} /;
+  344  find / -type f -name "script.sh" -mtime +100 -exec du -h {} /;
+  345  find / -type f -name "script.sh" -mtime +100 -exec du -h {} \;
+  346  locate script.sh
+  347  locate -r script.sh
+  348  clear
+  349  vi myscriptic.sh
+  350  chmod 744 myscriptic.sh
+  351  ./myscriptic.sh
+  352  cat myscriptic.sh
+  353  vi myscriptic.sh
+  354  clear
+  355  vi myscriptic.sh
+  356  ./myscriptic.sh
+  357  vi myscriptic.sh
+  358  ./myscriptic.sh
+  359  exit
+  360  find --help
+  361  find . -type f -name 1.txt -print
+  362  find / -type f -name 1.txt -print
+  363  find / -type f -name "*.txt" -size +1m
+  364  find / -type f -name '*.txt' -size +1m
+  365  find / -type f -name '*.txt' -size +1M
+  366  find / -type f -name '*.txt' -size +1M 2>/dev/null
+  367  find / -type f -name '*.txt' -size +1M -mtime -3 2>/dev/null
+  368  find / -type f -name '*.txt' -size +1M -mtime +3 2>/dev/null
+  369  find / -type f -name '*.txt' -mtime +3 -size +1M 2>/dev/null
+  370  find / -type f -name 'script.sh' -mtime
+  371  apk add locate
+  372  nano myscript0606.txt
+  373  chmod 744 myscript0606.txt
+  374  . myscript0606.txt
+  375  cat myscript0606.txt 
+  376  nano myscript0606.txt
+  377  ./myscript0606.txt 
+  378  nano myscript0606.txt
+  379  ./myscript0606.txt 
+  380  nano myscript0606.txt
+  381  ./myscript0606.txt 
+  382  nano myscript0606.txt
+  383  cd /opt/250425-ptm/maksym.t
+  384  tree
+  385  vi myscriptic.sh
+  386  exit
+  387  find / -name "1.txt"
+  388  find / -name "1.txt" 2>/dev/null
+  389  find / -name "1*.txt" 
+  390  find / -name "1*.txt" 2>/dev/null
+  391  find / -name "ssh*.txt" 2>/dev/null
+  392  find / -type d -name "chum" 2>/dev/null
+  393  find / -type d -name 'chum' 2>/dev/null
+  394  find / -type d -name 'chum*' 2>/dev/null
+  395  find /opt -type d -name 'txt*' 2>/dev/null
+  396  find /opt/ -type d -name 'txt*' 2>/dev/null
+  397  find / -type d -name 'txt*' 2>/dev/null
+  398  find / -type d -name '*.txt' 2>/dev/null
+  399  find / -type d -name '*.txt' -size +1m 2>/dev/null
+  400  find / -type f -name '*.txt' -size +1m 2>/dev/null
+  401  find / -type f  -name  '*.txt'  -size +1m 2>/dev/null
+  402  find / -type f -name '1.txt' 
+  403  find / -type f -name '1*.txt' 
+  404  find / -type f -name '1*.txt' -mtime +100
+  405  find / -type f -name 'script.sh' -mtime +100 -exec chmod 000 {} \;
+  406  locate script.sh
+  407  nano davit.txt
+  408  find / -name '1.txt'
+  409  find / -name '1.txt' 2>/dev/null
+  410  find / -name '1*.txt' 2>/dev/null
+  411  find / -type d -name 'chu*' 2>/dev/null
+  412  cd /opt/250425-ptm/Sergii_M
+  413  find / -type f -name '*' -sice +100k
+  414  find / -type f -name '*' -size +100k
+  415  ls -lh /opt/091224-ptm/MaksymM/all_homeworks/homework_8/botico.png
+  416  du /opt/240125-wde/mark_kozov/output.log
+  417  ls -lh /opt/240125-wde/mark_kozov/output.log
+  418  find --help
+  419  clear
+  420  find / -type f -name '1.txt' -delete 2>/dev/null
+  421  find / -type f -name '1.txt' -delete 
+  422  find / -type f -name '1.txt' 2>/dev/null
+  423  find / -type f -name '1.txt' -mtime +100-delete 
+  424  find / -type f -name '1.txt' -mtime +100 -delete 
+  425  clear
+  426  locate script.sh
+  427  locate -r script.sh 
+  428  clear
+  429  vi germes.sh
+  430  chmod 744 germes.sh
+  431  ./germes.sh
+  432  vi germes.sh
+  433  ./germes.sh
+  434  cat germes.sh
+  435  vi germes.sh
+  436  ./germes.sh
+  437  vi germes.sh
+  438  ./germes.sh
+  439  tree
+  440  exit
+  441  vi myscript.sh
+  442  cd
+  443  cat raisa
+  444  find / -name '1.txt' 2>/dev/null
+  445  find / -name '1*.txt' 2>/dev/null
+  446  find / -name '*.sh' 2>/dev/null | wc -l
+  447  find / -type d -name 'chu*' 2>/dev/null 
+  448  find /opt -type d -name 'chu*' 2>/dev/null 
+  449  find /opt -type f -name 'chu*' 2>/dev/null 
+  450  find / -type '*.txt' -size +100M 2>/dev/null
+  451  find / -type '*.txt' -size +100k 2>/dev/null
+  452  find / -type f -name '*.txt' -size +100k 2>/dev/null
+  453  find / -type f -name '*.txt' -size +1M -mtime +3 2>/dev/null
+  454  find / -type f -name '1.txt' -delite
+  455  find / -type f -name '1.txt' -delete
+  456  locate -r 'script.sh'  
+  457  nano my.sh
+  458  chmod 744 my.sh
+  459  cat my.sh 
+  460  nano my.sh
+  461  ./my.sh 
+  462  nano my.sh
+  463  tree
+  464  cd /raisa
+  465  cd raisa
+  466  find --help
+  467  find / -name '1.txt'
+  468  find / -name '1.txt' 2>/dev/null
+  469  find / -name '1*.txt' 2>/dev/null
+  470  find / -name '*.sh' 2>/dev/null | wc -l
+  471  find / type d -name '*.txt' 2>/dev/null
+  472  nano /opt/250425-ptm/svetlana.r/myscript.sh
+  473  chmod 744 /opt/250425-ptm/svetlana.r/myscript.sh
+  474  cat /opt/250425-ptm/svetlana.r/myscript.sh
+  475  nano /opt/250425-ptm/svetlana.r/myscript.sh
+  476  find / -name "password*"
+  477  sudo find / -name "password*"
+  478  sudo cat /etc/openldap/certs/password
+  479  sudo cat /etc/pam.d/password-auth
+  480  ls -l /etc/openldap/certs/password
+  481  sudo find / -name "*mierkulov*"
+  482  sudo find / -name "*151124-dam*" 2>/dev/null
+  483  cat /opt/121125-dam
+  484  find / -name "121125-dam"
+  485  cd /opt/250425-ptm/oleksandra
+  486  nano myscript.sh
+  487  ./myscript.sh
+  488  chmod 744 myscript.sh
+  489  ./myscript.sh
+  490  nano myscript.sh
+  491  ./myscript.sh
+  492  nano myscript.sh
+  493  ./myscript.sh
+  494  nano myscript.sh
+  495  ./myscript.sh
+  496  cd /opt/250425-ptm/raisa
+  497  RAISA_VARIABLE=250525-ptm
+  498  $RAISA_VARIABLE 
+  499  echo RAISA_VRAISA_V
+  500  echo $RAISA_VARIABLE
+  501  touch /opt/250425-ptm/raisa/.process_management.txt
+  502  date > /opt/250425-ptm/raisa/.process_management.txt 
+  503  echo "Welcome to Amazon server">> /opt/250425-ptm/raisa/.process_management.txt
+  504  free -m | grep 
+  505  cd /opt/250425-ptm/raisa
+  506  free -h
+  507  echo "total rum: $( free -h | grep Mem | awk {' print $2'})" >>.process_management.txt 
+  508  cat .process_management.txt 
+  509  ps -ef
+  510  ps -ef | grep root | >>.process_management.txt 
+  511  env
+  512  echo $RAISA_VARIABLE
+  513  export RAISA_VARIABLE=250425-ptm
+  514  echo $RAISA_VARIABLE
+  515  env | grep RAISA_VARIABLE >> .process_management.txt 
+  516  ps
+  517  ..
+  518  ps -ef
+  519  ps -ef | grep “/usr/sbin/sshd -D” | awk '{print "PID",$2,"PPID",$3}' >>.process_management.txt 
+  520  /opt/250425-ptm/raisa/
+  521  cd /opt/250425-ptm/raisa/
+  522   ps -ef | grep “/usr/sbin/sshd -D” | awk '{print "PID",$2,"PPID",$3}' >>.process_management.txt
+  523   ps -eo | grep /usr/sbin/sshd -D | awk '{print "PID",$2,"PPID",$3}' >>.process_management.txt
+  524   ps -ef | grep /usr/sbin/sshd -D |grep -v grep | awk '{print "PID",$2,"PPID",$3}' >>.process_management.txt
+  525  ps -ef | grep "/usr/sbin/sshd -D" | grep -v grep |awk '{print "PID", $2, "PPID", $3}' >>
+  526  ps -ef | grep "/usr/sbin/sshd -D" | grep -v grep |awk '{print "PID", $2, "PPID", $3}' >> .process_management.txt
+  527  cat .process_management.txt
+  528  tree
+  529  cd danu,marian
+  530  search danu.marian
+  531  cd danu_marian
+  532  exit
+  533  cd /opt
+  534  ls -al
+  535  cd 280225-wdm
+  536  cd olga_bibikova
+  537  mkdir random_files
+  538  mkdir even_files
+  539  la -al
+  540  ls -al
+  541  cd random_files
+  542  touch random.sh
+  543  cd touch
+  544  ls
+  545  nano random,sh
+  546  la
+  547  ls
+  548  nano random.sh
+  549  cat random.sh
+  550  touch move_to_even.sh
+  551  ls
+  552  nano move_to_even.sh 
+  553  chmod +x /opt/move_to_even.sh
+  554  chmod +x move_to_even.sh 
+  555  ./move_to_even.sh 
+  556  ls -al
+  557  ./ move_to_even.sh 
+  558  exit
+  559  cd /opt/280225-wdm/olga_bibikova
+  560  ls
+  561  cd random_files
+  562  la
+  563  ls
+  564  cd .//
+  565  cd../
+  566  cd ../
+  567  cd even_files
+  568  ls
+  569  cd ../
+  570  cd random_files
+  571  ls
+  572  +x random.sh
+  573  chmod +x random.sh
+  574  ls
+  575  cd ../
+  576  cd even_files/
+  577  ls
+  578  cd ../
+  579  cd random_files/
+  580  ./random.sh
+  581   ./random.ch
+  582   ./random.sh
+  583  /opt/280224-wdm/olga_bibikova/random_files/random.sh
+  584  ls
+  585  cat random.sh
+  586  ./random.sh
+  587  /opt/280224-wdm/olga_bibikova/random_files/random.sh
+  588  ./random.sh
+  589  ./ random.sh 
+  590  ./move_to_even.sh 
+  591  ./ra
+  592  ./random.sh 
+  593  nano random.sh 
+  594  ./random.sh 
+  595  exit
+  596  cd /opt
+  597  nano sleeperMalai.sh
+  598  chmod +x sleeperMalai.sh
+  599  ./sleeperMalai.sh
+  600  /opt/210225-ptm
+  601  cd
+  602  cd /opt/210225-ptm
+  603  ls
+  604  mkdir -p /opt/210225-ptm/petruk_yevheniia
+  605  ls
+  606  cd /opt/210225-ptm/petruk_yevheniia/
+  607  env
+  608  ls -al /root2>/dev/null
+  609  cat ~/.ssh/id_rsa.pub
+  610  cat ~./ssh/id_rsa.pub
+  611  cd /opt/210225-ptm/Georgiy
+  612  cd /opt/250425-ptm/
+  613  cd /opt/250425-ptm/Georgiy/
+  614  ls -la
+  615  cat 0606.sh 
+  616  ./06
+  617  ./0606.sh 
+  618  chmod u+x 0606.sh 
+  619  ls -la
+  620  vi 0606.sh 
+  621  /0606.sh 
+  622  ./0606.sh 
+  623  bash 0606.sh 
+  624  cat 0606.sh 
+  625  ./0606.sh
+  626  vi 0606.sh 
+  627  ./0606.sh
+  628  exit
+  629  cd /opt/250425/vladimir.s
+  630  cd /opt/250425/
+  631  ls 
+  632  cd /opt/250425-ptm/
+  633  ls -l
+  634  rm test.txt 
+  635  ls -l
+  636  cd vladimir.s
+  637  ls -l
+  638  cd /opt/280225-wdm
+  639  cd AnastasiiaS
+  640  ls -al
+  641  mkdir -p Dir1
+  642  mkdir -p Dir2
+  643  ls -al
+  644  cat file.txt
+  645  cat /tmp/file.txt
+  646  df -h
+  647  df -h | head -n 3 >> /tmp/file.txt
+  648  cat /tmp/file.txt
+  649  chmod 070 /tmp/file.txt
+  650  ls -l /tpm/file.txt
+  651  vi myfirstbashscript.sh
+  652  chmod +x myfirstbashscript.sh
+  653  ./myfirstbashscript.sh
+  654  cat myfirstbashscript.sh
+  655  cat myfirstbashscript.sh >> /tmp/file.txt
+  656  history | tail -n 20 >> /tmp/file.txt
+  657  cd /opt/250425-ptm/
+  658  ды
+  659  ls
+  660  cd /opt/250425-ptm/Georgiy/
+  661  ls
+  662  tree
+  663  ls la
+  664  ls -la
+  665  cat 0606.sh 
+  666  cd
+  667  tree
+  668  ls
+  669  vi /tmp/file.txt
+  670  exit
+  671  cat file.txt
+  672  cat /tmp/file.txt
+  673  df -h
+  674  df -h | head -n 3 >> /tmp/file.txt
+  675  cat /tmp/file.txt
+  676  chmod 070 /tmp/file.txt
+  677  ls -l /tpm/file.txt
+  678  vi myfirstbashscript.sh
+  679  chmod +x myfirstbashscript.sh
+  680  ./myfirstbashscript.sh
+  681  cat myfirstbashscript.sh
+  682  cat myfirstbashscript.sh >> /tmp/file.txt
+  683  history | tail -n 20 >> /tmp/file.txt
+  684  chmod 744 /tmp/file.txt
+  685  cat myfirstbashscript.sh >> /tmp/file.txt
+  686  history | tail -n 20 >> /tmp/file.txt
+  687  export_file /tmp/file.txt
+  688  ps aux 
+  689  ps aux | head -n5
+  690  ps aux | head +n5
+  691  ps aux | head -n15
+  692  cd opt/280225-wdm
+  693  cd opt/280225-wdm/jhu
+  694  cd /opt/280225-wdm/
+  695  cd AnastasiiaS
+  696  la -sl
+  697  la -al
+  698  ls -al
+  699     nano randome_files.sh
+  700  chmod +x randome_files.sh 
+  701  ./randome_files.sh 
+  702     nano randome_files.sh
+  703  ./randome_files.sh 
+  704     nano randome_files.sh
+  705  ./randome_files.sh 
+  706  cat randome_files.sh 
+  707  cd Dir1
+  708  ls -al
+  709  cd ..
+  710  nano even_files.sh
+  711  chmod +x even_files.sh 
+  712  ./even_files.sh 
+  713  nano even_files.sh
+  714  ./even_files.sh 
+  715  nano even_files.sh
+  716  ./even_files.sh 
+  717  nano even_files.sh
+  718  ./even_files.sh 
+  719  nano even_files.sh 
+  720  ./even_files.sh 
+  721  nano even_files.sh 
+  722  ./even_files.sh 
+  723  cd Dir2
+  724  ls -al
+  725  cd Dir2 cd ..
+  726  cd ..
+  727  cat even_files.sh 
+  728  date
+  729  ls -l
+  730  cd /opt/250425-ptm/
+  731  ls
+  732  ls -la
+  733  cd vladimir.s/
+  734  ls -l
+  735  nano 123.sh
+  736  touch tanja
+  737  ls -l
+  738  nano myfirstbashscript.sh
+  739  nano text.txt 
+  740  echo "# new" >> README.md
+  741  ls -l
+  742  nano README.md 
+  743  nano myfirstbashscript.sh
+  744  ls -al  /root  2>/dev/null
+  745  sudo ls -al  /root  2>/dev/null
+  746  exit
+  747  ls -al  /root  2>/dev/null
+  748  exit
+  749  find *.txt
+  750  find *.jpg
+  751  find / *.txt
+  752  cd opt/chumak/
+  753  cd opt/chumak
+  754  cd opt
+  755  cd /opt/
+  756  ls
+  757  cd /opt/chumak/
+  758  cd /opt/chumak/111/
+  759  ls
+  760  tree
+  761  ls -la
+  762  cd /
+  763  find / -type f -name ".old"
+  764  find / -type f -name ".old" -delete
+  765  find / -type f -name ".old"
+  766  find / -type f -name "
+  767  find / -type f -name "1.txt" -delete 
+  768  find / -type f -name "1.txt"
+  769  find / -type f -name "*.txt" -size +1M
+  770  find / -type f -name "*.txt" -size +1M -mtime +3
+  771  find / -type f -name "*.txt" -size +1M -mtime +1
+  772  find / -type f -name "davit.txt" 
+  773  find / -type f -name "davit.txt" chmod 000 {}find / -type f -name "davit.txt" chmod 777 {}exit
+  774  sudo cat /etc/openldap/certs/password
+  775  ssh ec2-user@linux.itcareerhub.de
+  776  locate readme
+  777  nano myfirstbashscript.sh
+  778  find Georgiy
+  779  find / -name"Georgiy"
+  780  cd /opt/
+  781  ls
+  782  cd /opt/250425-ptm/Georgiy/
+  783  nano myfirstbashscript.sh
+  784  cat myfirstbashscript.sh 
+  785  chmod 744
+  786  chmod 744 myfirstbashscript.sh 
+  787  ./myfirstbashscript.sh 
+  788  cd /opt/280225-wdm/Irina_Mai/
+  789  ls -la
+  790  cd /HW-20_even
+  791  cd /opt/280225-wdm/Irina_Mai/HW-20_even
+  792  ls -la
+  793  cd /opt/280225-wdm/Irina_Mai/HW-20_odd
+  794  ls -la
+  795  nano HW-20-script.sh 
+  796  ./HW-20-script.sh 
+  797  nano HW-20-script.sh 
+  798  ./HW-20-script.sh 
+  799  nano HW-20-script.sh 
+  800  ./HW-20-script.sh 
+  801  nano -l ./HW-20-script.sh 
+  802  ./HW-20-script.sh 
+  803  nano HW-20-script.sh 
+  804  ./HW-20-script.sh 
+  805  nano HW
+  806  nano HW-20-script.sh 
+  807   pwd
+  808  ls -la
+  809  cd /opt/280225-wdm/Irina_Mai/HW-20_even/
+  810  nano HW-20-script.sh 
+  811  exsit
+  812  exit
+  813  ls -la /root 2>/dev/null
+  814  top
+  815  yes > /dev/null
+  816  top
+  817  mkdir -p /opt/dato/koki
+  818  touch /opt/dato/koki/koko.txt
+  819  echo " ეს არის სატესტო ფაილი სერვერსე" > /opt/dato/koki/koko.txt
+  820  tree /opt
+  821  cat /opt/dato/koki/koko.txt
+  822  cp /opt/dato/koki/koko.txt /opt/dato/koki/koko1.txt
+  823  rm /opt/dato koki/koko.txt
+  824  rm /opt/dato/koki/koko.txt
+  825  ls -la /opt/dato/koki/koko.txt
+  826  ls -la /opt/dato/koki/koko1.txt
+  827  cat > /opt/dato/koki/text.txt <<EOF
+  828  ეს არის პირველი ხაზი
+  829  ეს არის მეორე ხაზი
+  830  ეს არის მესამე ხაზი
+  831  EOF
+  832  nano my_script.sh
+  833  chmod +x my_script.sh
+  834  ./my_script.sh
+  835  cat /opt/dato/koki/message.txt
+  836  nano my_script.sh
+  837  ./my_script.sh giorgi
+  838  nano my_script.sh
+  839  ./my_script.sh giorgi
+  840  nano my_script.sh
+  841  ./my_script.sh giorgi
+  842  cat /opt/dato/koki/message.txt
+  843  vi my_script.sh
+  844  find . -type d -name "koki"
+  845  find . -type f -size +1M
+  846  find . -type f -name "*.txt"
+  847  find . -type d -name "koki"
+  848  find /opt/dato -type d -name "koki"
+  849  find . -mtime -7
+  850  find . -name "*.log" -exec rm {} \;
+  851  vi
+  852  vi my_script.sh
+  853  vi safe_delete_logs.sh
+  854  chmod +x safe_delete_logs.sh
+  855  ./safe_delete_logs.sh
+  856  cd 
+  857  cd /opt/
+  858  ls -la
+  859  cd /250425-ptm/Georgiy/
+  860  cd /opt/250425-ptm/Georgiy/
+  861  tree
+  862  cat myfirstbashscript.sh 
+  863  nano myfirstbashscript.sh 
+  864  ./my
+  865  ./ myfirstbashscript.sh 
+  866  nano myfirstbashscript.sh 
+  867  chmod 744 myfirstbashscript.sh 
+  868  ./ myfirstbashscript.sh
+  869  ./myfirstbashscript.sh
+  870  nano myfirstbashscript.sh 
+  871  cat my
+  872  cat myfirstbashscript.sh 
+  873  ./myfirstbashscript.sh
+  874  ps -ef
+  875  grep bioset
+  876  grep -v bioset
+  877  grep -v sshd
+  878  ws -l
+  879  ps -ef
+  880  ws -l
+  881  ps -ef | ws -l
+  882  grep -v 'bioset'
+  883  ps -ef | grep '[b]ioset'
+  884  ps -ef | grep 'bioset'
+  885  ps -ef | grep 'bioset'
+  886  ps -ef | grep 'root'
+  887  ps -ef | grep 'bioset'
+  888  ps -ef 
+  889  ps -ef | grep 'ssh'
+  890  ps -ef | grep '[b]ioset'
+  891  wc echo
+  892  ls -l /etc/passwd
+  893  ps -ef | grep 'ssh' | awk {print $1}
+  894  ls -l /etc/passwd | awk '{print $1}'
+  895  ps -ef | grep 'ssh' | awk {print $1}
+  896  ps -ef | grep 'ssh' | awk '{print $1}'
+  897  ps -ef | grep 'ssh' | awk '{print $2}'
+  898  ps -ef | grep 'ssh' | awk '{print $1,$2}'
+  899  find / -type d -name "Georgiy"
+  900  ./myfirstbashscript.sh
+  901  cd /opt/250425-ptm/Georgiy/
+  902  ./myfirstbashscript.sh
+  903  tree
+  904  ls
+  905  nano 0606.sh 
+  906  ./0606.sh 
+  907  6
+  908  ./0606.sh 
+  909  2
+  910  nano 0606.sh 
+  911  ./0606.sh 
+  912  2
+  913  chmod 744 0606.sh 
+  914  ./0606.sh 
+  915  nano 0606.sh 
+  916  ./0606.sh 
+  917  екуу
+  918  tree
+  919  ls
+  920  ls -l
+  921  /08-06-25
+  922  /08-06-25/
+  923  cd /08-06-25/
+  924  cd 08-06-25
+  925  tree
+  926  cat File-1.txt 
+  927  cd ..
+  928  tree
+  929  cat myfirstbashscript.sh > myfirstbashscript.txt
+  930  tree
+  931  YEVHENIIA_VARIABLE="210225-ptm"
+  932  export YEVHENIIA_VARIABLE="210225-ptm"
+  933  cd /opt/210225-ptm
+  934  ls
+  935  touch /opt/210225-ptm/petruk_yevheniia/.process_management
+  936  date > /opt/210225-ptm/petruk_yevheniia/.process_management
+  937  echo "Welcome to Amazon server" >> /opt/210225-ptm/petruk_yevheniia/.process_management
+  938  free -h | grep Mem | awk {'print $2'} >> /opt/210225-ptm/petruk_yevheniia/.process_management
+  939  cd /opt/210225-ptm/
+  940  ps -eo user= | awk '$1 == "root" | wc -l
+  941  exit
+  942  q
+  943  env | grep YEVHENIIA_VARIABLE >> /opt/210225-ptm/petruk_yevheniia/.process_management
+  944  ps -ef | grep "[/]usr/sbin/sshd -D" | awk '{print "PID "$2" PPID "$3}' >> /opt/210225-ptm/petruk_yevheniia/.process_management
+  945  cat /opt/210225-ptm/petruk_yevheniia/.process_management
+  946  export YEVHENIIA_VARIABLE=210225-ptm
+  947  FILE=/opt/210225-ptm/petruk_yevheniia/.process_management
+  948  > $FILE
+  949  date >> $FILE
+  950  echo "Welcome to Amazon server" >> $FILE
+  951  free -h | awk '/Mem:/ {print $2}' >> $FILE
+  952  ps -eo user= | awk '$1=="root"' | wc -l >> $FILE
+  953  env | grep YEVHENIIA_VARIABLE >> $FILE
+  954  ps -ef | grep "[/]usr/sbin/sshd -D" | awk '{print "PID", $2, "PPID", $3}' >> $FILE
+  955  cat /opt/210225-ptm/petruk_yevheniia/.process_management
+  956  export_file /opt/210225-ptm/petruk_yevheniia/.process_management
+  957  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/petruk_yevheniia/.process_management
+  958  exit
+  959  cd opt/210225-ptm
+  960  cd /opt/210225-ptm
+  961  ls
+  962  cd Anastasiia
+  963  ls
+  964  cd vadym
+  965  cd ..
+  966  cd vadym
+  967  ls
+  968  cd ..
+  969  cd petruk_yevheniia/
+  970  ls
+  971  cd ..
+  972  ls
+  973  ls -a
+  974  nano permission_checker.sh
+  975  chmod +x permission_checker.sh
+  976  ./permission_checker.sh
+  977  cat permission_checker.sh 
+  978  cd /opt/210225-ptm/petruk_yevheniia/
+  979  nano permission_checker.sh
+  980  chmod +x permission_checker.sh
+  981  ls
+  982  git init
+  983  git add .
+  984  git commit -m "HW_11 с permission_checker.sh"
+  985  git remote add origin git@github.com:yevpetruk/homework11.git
+  986  git push -u origin main
+  987  git remote remove origin
+  988  git@github.com:yevpetruk/homework11.git
+  989  ls /.ssh/id_rsa.pub
+  990  ssh-keygen -t rsa -b 4096 -C "jenna.petruk@gmail.com"
+  991  rm "ssh -T git@github.com"
+  992  rm "ssh -T git@github.com.pub"
+  993  ssh -T git@github.com
+  994  cat /.ssh/id_rsa.pub
+  995  cd /opt/210225-ptm/petruk_yevheniia
+  996  nan task_YEVHENIIA.sh
+  997  nano task_YEVHENIIA.sh
+  998  chmod +x task_YEVHENIIA.sh
+  999  export EDITOR=nano
+ 1000  crontab -e
+ 1001  cd /opt/210225-ptm/petruk_yevheniia
+ 1002  history > command_history.txt
